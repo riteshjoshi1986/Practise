@@ -25,7 +25,8 @@ public class Framework_001{
 	
   // Following TestNg Test case pattern, and divided a Test case in to three different part.
   // In Before Method, your code will always be the same for every other test case.
-  // In other way before method is your prerequisites of your main Test Case	
+  // In other way before method is your prerequisites of your main Test Case
+	//Adding additional Comments to upload to Git
   @BeforeMethod
   public void beforeMethod() throws Exception {
 	    // Configuring Log4j logs, please see the following posts to learn about Log4j Logging
