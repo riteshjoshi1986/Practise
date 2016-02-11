@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="164" started-at="2016-02-09T03:59:37Z" finished-at="2016-02-09T03:59:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="164" started-at="2016-02-09T03:59:37Z" finished-at="2016-02-09T03:59:37Z">
+      <class name="testingPackage.loginGetvalues">
+        <test-method status="FAIL" signature="openBrowser()[pri:0, instance:testingPackage.loginGetvalues@3f0ee7cb]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-02-08T21:59:37Z" finished-at="2016-02-08T21:59:37Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\Users\rj0844\Documents\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\rj0844\Documents\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:290)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at testingPackage.loginGetvalues.openBrowser(loginGetvalues.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:testingPackage.loginGetvalues@3f0ee7cb]" name="loginTest" duration-ms="0" started-at="2016-02-08T21:59:37Z" finished-at="2016-02-08T21:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:testingPackage.loginGetvalues@3f0ee7cb]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-02-08T21:59:37Z" finished-at="2016-02-08T21:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testingPackage.loginGetvalues -->
+      <class name="testingPackage.createAccount">
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:testingPackage.createAccount@1cd072a9]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2016-02-08T21:59:37Z" finished-at="2016-02-08T21:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="launchBrowser()[pri:0, instance:testingPackage.createAccount@1cd072a9]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2016-02-08T21:59:37Z" finished-at="2016-02-08T21:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="account()[pri:0, instance:testingPackage.createAccount@1cd072a9]" name="account" duration-ms="0" started-at="2016-02-08T21:59:37Z" finished-at="2016-02-08T21:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- account -->
+      </class> <!-- testingPackage.createAccount -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,74 @@
+[TestNG] Running:
+  C:\Users\rj0844\AppData\Local\Temp\testng-eclipse-1158110382\testng-customsuite.xml
+
+Chrome
+http://demo.guru99.com/V4/
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 46206
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Captured Screenshot!!!
+Captured Screenshot!!!
+FAILED CONFIGURATION: @AfterMethod browserClose
+java.lang.Error: Unresolved compilation problems: 
+	driver cannot be resolved to a type
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+	at TestCases.homePageTest.browserClose(homePageTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:708)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+SKIPPED CONFIGURATION: @BeforeMethod browserLaunch
+SKIPPED CONFIGURATION: @AfterMethod browserClose
+SKIPPED CONFIGURATION: @BeforeMethod browserLaunch
+SKIPPED CONFIGURATION: @AfterMethod browserClose
+PASSED: testEditCustLinks
+SKIPPED: testNewCustLinks
+SKIPPED: testdeleteCustLinks
+
+===============================================
+    Default test
+    Tests run: 3, Failures: 0, Skips: 2
+    Configuration Failures: 1, Skips: 4
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 3, Failures: 0, Skips: 2
+Configuration Failures: 1, Skips: 4
+===============================================
+
+[TestNG] Time taken by org.testng.reporters.EmailableReporter2@63e31ee: 14 ms
+[TestNG] Time taken by org.testng.reporters.XMLReporter@2a3046da: 9 ms
+[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@59690aa4: 7 ms
+[TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@4c3e4790: 41 ms
+[TestNG] Time taken by [FailedReporter passed=0 failed=0 skipped=0]: 8 ms
+[TestNG] Time taken by org.testng.reporters.jq.Main@19e1023e: 40 ms
+Picked up JAVA_TOOL_OPTIONS:  
